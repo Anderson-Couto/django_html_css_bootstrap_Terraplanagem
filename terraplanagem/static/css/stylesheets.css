@@ -1,0 +1,24 @@
+@media only screen and (max-device-width: 700px) {
+    .footer {
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+    .footer {
+        font-size: 0.3em;
+    }
+}
+
+.margem-borda {
+    margin: 3%;
+}
+
+.link_linkedin {
+    color: inherit;
+}
+
+.link_linkedin:hover {
+    color: white;
+    text-decoration:none;
+}
