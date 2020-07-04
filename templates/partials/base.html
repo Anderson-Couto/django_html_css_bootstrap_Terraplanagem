@@ -13,19 +13,18 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="border border-dark shadow-lg bg-white margem-borda">
+    <div class="border border-dark shadow-lg bg-white margem-borda rounded">
       
-    <header>
-      {% include 'partials/navbar.html' %}
-    </header>
-    
-    <main role="main">
-      {% block content %}{% endblock %}
-    </main>
-    
-    <footer class="footer">
-      {% include 'partials/footer.html' %}
-    </footer>
+      <header>
+        {% include 'partials/navbar.html' %}
+      </header>
+      <main role="main">
+        {% block content %}{% endblock %}
+      </main>
+      <footer class="footer">
+        {% include 'partials/footer.html' %}
+      </footer>
+  
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
